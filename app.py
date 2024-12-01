@@ -1,18 +1,5 @@
 import streamlit as st
 from openai import OpenAI
-import os
-from dotenv import load_dotenv
-
-
-model_options = {
-    "openai": ["gpt-4o", "gpt-4o-mini", "gpt-4-turbo", "gpt-4", "gpt-3.5-turbo"],
-    "databricks": [
-        "databricks-meta-llama-3-1-405b-instruct",
-        "databricks-meta-llama-3-1-70b-instruct",
-        "databricks-dbrx-instruct",
-        "databricks-mixtral-8x7b-instruct",
-    ],
-}
 
 
 ## With LLM query and context seperately
