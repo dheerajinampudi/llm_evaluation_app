@@ -46,6 +46,10 @@ LLM Answer Judge is a Streamlit app that evaluates AI-generated answers against 
 
 This project is open-source and available under the MIT License.
 
+## Screenshot
+
+![alt text](image.png)
+
 ---
 
 *Note: Usage of the OpenAI API may incur costs. Please refer to OpenAI's pricing for more details.*
